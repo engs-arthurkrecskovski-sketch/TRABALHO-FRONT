@@ -31,3 +31,8 @@ main {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+header-dashboard p {
+    color: #888;
+    font-weight: 300;
+}
