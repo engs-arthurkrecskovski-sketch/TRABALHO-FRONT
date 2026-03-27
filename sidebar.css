@@ -12,3 +12,11 @@
     border-right: 1px solid #1a1c1e;
     transition: all 0.3s ease;
 }
+
+.logo-text-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 1.5rem;
+    margin-bottom: 3rem;
+}
