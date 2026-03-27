@@ -1,0 +1,78 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body { 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #121212; 
+    color: white;
+    display: flex; 
+    flex-direction: row; 
+    min-height: 100vh;
+}
+main {
+    margin-left: 280px; 
+    width: calc(100% - 280px);
+    padding: 3rem;
+    flex-grow: 1;
+    transition: all 0.3s ease;
+}
+
+.header-dashboard {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.header-dashboard h1 { 
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff; 
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header-dashboard p {
+    color: #888;
+    font-weight: 300;
+}
+
+.logo-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo-top-right img {
+    width: 140px;
+    height: auto;
+} 
+
+.dashboard-cards { 
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    background: #1c1e21;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    position: relative; 
+    transition: 0.3s;
+    border-bottom: 4px solid #3b82f6; 
+    cursor: help;
+}
+
+.card-azul { border-color: #3b82f6; }
+.card-amarelo { border-color: #f59e0b; }
+.card-verde { border-color: #10b981; }
+
+.card span { 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 3rem; 
+    font-weight: 700; 
+}
