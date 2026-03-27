@@ -69,3 +69,10 @@ textarea {
     outline: none;
     transition: 0.3s ease;
 }
+
+select:focus, 
+input:focus, 
+textarea:focus {
+    border-color: #e63946;
+    background-color: #32363b;
+}
