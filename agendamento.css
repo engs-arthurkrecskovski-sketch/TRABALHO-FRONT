@@ -1,0 +1,149 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.agendamento-content { 
+    width: 100%; 
+    max-width: 550px; 
+}
+
+.header-page { 
+    text-align: center; 
+    margin-bottom: 2rem; 
+}
+
+.header-icon { 
+    color: #e63946; 
+    font-size: 2.5rem; 
+    margin-bottom: 10px; 
+}
+
+.header-page h1 { 
+    font-family: 'Oswald', sans-serif;
+    color: white; 
+    font-size: 2.2rem; 
+    text-transform: uppercase;
+}
+
+.header-page p {
+    color: #888;
+    font-size: 1rem;
+}
+
+.box-agendar {
+    background-color: #1c1e21;
+    padding: 2.5rem;
+    border-radius: 20px;
+    border-top: 4px solid #e63946;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+.form-group { 
+    margin-bottom: 1.5rem; 
+}
+
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    color: #ddd; 
+    font-size: 0.85rem; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+select, 
+input, 
+textarea {
+    width: 100%; 
+    padding: 14px; 
+    background-color: #2c2f33; 
+    border: 1px solid #3e4247; 
+    border-radius: 10px; 
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+select:focus, 
+input:focus, 
+textarea:focus {
+    border-color: #e63946;
+    background-color: #32363b;
+}
+
+.form-row { 
+    display: flex; 
+    gap: 15px; 
+}
+
+.form-row .form-group { 
+    flex: 1; 
+}
+
+.btn-confirmar {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    width: 100%; 
+    padding: 1.2rem; 
+    background-color: #e63946; 
+    color: white;
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 12px; 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
+    margin-top: 10px;
+}
+
+.btn-confirmar:hover {
+    background-color: #c31520;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(230, 57, 70, 0.3);
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-top: 100px;
+    }
+
+    .box-agendar {
+        padding: 1.5rem;
+    }
+
+    .form-row { 
+        flex-direction: column; 
+        gap: 0; 
+    }
+
+    .header-page h1 {
+        font-size: 1.8rem;
+    }
+}
+
+.box-agendar {
+    animation: aparecerBox 1s ease;
+}
+
+@keyframes aparecerBox {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
