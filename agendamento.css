@@ -54,3 +54,18 @@ label {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+select, 
+input, 
+textarea {
+    width: 100%; 
+    padding: 14px; 
+    background-color: #2c2f33; 
+    border: 1px solid #3e4247; 
+    border-radius: 10px; 
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    outline: none;
+    transition: 0.3s ease;
+}
