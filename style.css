@@ -53,3 +53,16 @@ header-dashboard p {
     gap: 20px; 
     flex-wrap: wrap; 
 }
+
+.card {
+    background: #1c1e21;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    position: relative; 
+    transition: 0.3s;
+    border-bottom: 4px solid #3b82f6; 
+    cursor: help;
+}
