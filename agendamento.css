@@ -45,3 +45,12 @@ header-page h1 {
 .form-group { 
     margin-bottom: 1.5rem; 
 }
+
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    color: #ddd; 
+    font-size: 0.85rem; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
