@@ -81,3 +81,8 @@ textarea:focus {
     display: flex; 
     gap: 15px; 
 }
+
+.form-row .form-group { 
+    flex: 1; 
+}
+
