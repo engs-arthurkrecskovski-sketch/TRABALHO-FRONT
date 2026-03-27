@@ -22,7 +22,7 @@ main {
     margin-bottom: 10px; 
 }
 
-header-page h1 { 
+.header-page h1 { 
     font-family: 'Oswald', sans-serif;
     color: white; 
     font-size: 2.2rem; 
