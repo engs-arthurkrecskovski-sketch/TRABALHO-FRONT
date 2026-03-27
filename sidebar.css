@@ -76,3 +76,8 @@
         border-right: none;
         border-bottom: 1px solid #1a1c1e;
     }
+    
+.logo-text-container {
+        margin-bottom: 0.5rem;
+        justify-content: center;
+    }
