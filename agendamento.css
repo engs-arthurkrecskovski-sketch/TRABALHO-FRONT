@@ -76,3 +76,8 @@ textarea:focus {
     border-color: #e63946;
     background-color: #32363b;
 }
+
+.form-row { 
+    display: flex; 
+    gap: 15px; 
+}
