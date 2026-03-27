@@ -66,3 +66,13 @@ header-dashboard p {
     border-bottom: 4px solid #3b82f6; 
     cursor: help;
 }
+
+.card-azul { border-color: #3b82f6; }
+.card-amarelo { border-color: #f59e0b; }
+.card-verde { border-color: #10b981; }
+
+.card span { 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 3rem; 
+    font-weight: 700; 
+}
