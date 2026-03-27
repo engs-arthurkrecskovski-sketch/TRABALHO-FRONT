@@ -106,3 +106,9 @@ textarea:focus {
     transition: 0.4s ease;
     margin-top: 10px;
 }
+
+.btn-confirmar:hover {
+    background-color: #c31520;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(230, 57, 70, 0.3);
+}
