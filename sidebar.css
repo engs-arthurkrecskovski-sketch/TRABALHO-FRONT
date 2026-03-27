@@ -69,15 +69,21 @@
 @media (max-width: 768px) {
     .sidebar {
         width: 100% !important;
-        height: auto; /* Deixa de ocupar a tela toda */
-        position: fixed; /* Fixa no topo */
+        height: auto; 
+        position: fixed; 
         padding: 0.5rem 0;
-        flex-direction: column; /* Mantém coluna ou muda para linha se preferir */
+        flex-direction: column; 
         border-right: none;
         border-bottom: 1px solid #1a1c1e;
     }
-    
+
 .logo-text-container {
         margin-bottom: 0.5rem;
         justify-content: center;
+    }
+
+     .sidebar ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
