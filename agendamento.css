@@ -5,3 +5,8 @@ main {
     padding: 2rem;
     min-height: 100vh;
 }
+
+.agendamento-content { 
+    width: 100%; 
+    max-width: 550px; 
+}
