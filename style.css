@@ -42,3 +42,8 @@ header-dashboard p {
     top: 0;
     right: 0;
 }
+
+.logo-top-right img {
+    width: 140px;
+    height: auto;
+}
