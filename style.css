@@ -46,4 +46,10 @@ header-dashboard p {
 .logo-top-right img {
     width: 140px;
     height: auto;
+} 
+
+.dashboard-cards { 
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
 }
