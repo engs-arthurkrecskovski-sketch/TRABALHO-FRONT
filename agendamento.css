@@ -131,3 +131,7 @@ textarea:focus {
         font-size: 1.8rem;
     }
 }
+
+.box-agendar {
+    animation: aparecerBox 1s ease;
+}
