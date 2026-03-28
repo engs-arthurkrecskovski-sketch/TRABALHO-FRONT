@@ -88,3 +88,11 @@ header-dashboard p {
     padding: 20px;
     border: 1px solid #2c2f33;
 }
+.fila-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #25282c;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
