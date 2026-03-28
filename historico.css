@@ -86,3 +86,13 @@ tr:hover td {
     background: rgba(245, 158, 11, 0.15); 
     color: #f59e0b; 
 }
+@media (max-width: 768px) {
+    main { 
+        padding: 1.5rem; 
+        padding-top: 100px; 
+    }
+
+    .header-page h1 {
+        font-size: 1.8rem;
+    }
+}
