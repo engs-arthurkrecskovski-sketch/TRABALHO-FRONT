@@ -58,3 +58,10 @@ th {
     letter-spacing: 1px;
     border-bottom: 1px solid #2c2f33;
 }
+td {
+    padding: 18px 15px;
+    border-bottom: 1px solid #2c2f33;
+    color: #ddd;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
