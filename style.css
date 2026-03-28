@@ -108,3 +108,13 @@ header-dashboard p {
     border: 1px solid #3e4247; transition: 0.3s;
 }
 .btn-atalho:hover { background: #e63946; }
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    z-index: 1000;
+    transition: 0.3s;
+}
