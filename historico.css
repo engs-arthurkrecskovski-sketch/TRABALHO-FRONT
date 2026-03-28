@@ -8,3 +8,26 @@ main {
     width: 100%;
     max-width: 1100px;
 }
+.header-page {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.header-icon {
+    font-size: 2.5rem;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.header-page h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.header-page p {
+    color: #888;
+    font-size: 1rem;
+}
