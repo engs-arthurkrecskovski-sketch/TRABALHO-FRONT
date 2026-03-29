@@ -35,3 +35,8 @@ main {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.header-content p { 
+    color: #aaa; 
+    font-weight: 300;
+    font-size: 1.1rem;
+}
