@@ -9,3 +9,9 @@ main {
     padding: 2rem;
     min-height: 100vh;
 }
+
+.form-container { 
+    width: 100%; 
+    max-width: 500px; 
+    animation: fadeIn 0.8s ease-in-out;
+}
