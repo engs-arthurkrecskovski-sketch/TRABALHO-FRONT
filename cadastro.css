@@ -48,3 +48,7 @@ main {
     border-right: 4px solid #e63946; /* Detalhe lateral moderno */
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
+
+.form-group { 
+    margin-bottom: 1.8rem; 
+}
