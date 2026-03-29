@@ -75,3 +75,9 @@ input {
     outline: none;
     transition: all 0.3s ease;
 }
+ 
+input:focus { 
+    border-color: #e63946; 
+    background: #2c2f33;
+    box-shadow: 0 0 15px rgba(230, 57, 70, 0.1);
+}
