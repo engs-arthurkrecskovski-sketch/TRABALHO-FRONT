@@ -164,6 +164,21 @@ header-dashboard p {
     main { margin-left: 0 !important; width: 100% !important; padding-top: 140px !important; }
     .dashboard-cards { flex-direction: column; }
 }
+
+main {
+        margin-left: 0 !important; /* Remove recuo lateral */
+        width: 100% !important;
+        padding: 1.5rem;
+        padding-top: 140px !important; /* Espaço para não ficar sob a sidebar fixa */
+    }
+
+
+
+
+
+
+
+
 main { animation: dashboardEntrada 0.8s cubic-bezier(0.22, 1, 0.36, 1); }
 .dashboard-cards .card { opacity: 0; animation: cardsEntrada 0.8s forwards; }
 .card:nth-child(1) { animation-delay: 0.2s; }
