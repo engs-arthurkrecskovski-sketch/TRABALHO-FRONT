@@ -67,6 +67,32 @@ header-dashboard p {
     cursor: help;
 }
 
+.card::after {
+    position: absolute;
+    bottom: 115%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: #2c2f33;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    text-align: left;
+    border: 1px solid #e63946;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 100;
+    white-space: pre;
+    pointer-events: none;
+}
+
+.card:hover::after { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: translateX(-50%) translateY(0); 
+}
+
 .card-azul { border-color: #3b82f6; }
 .card-amarelo { border-color: #f59e0b; }
 .card-verde { border-color: #10b981; }
