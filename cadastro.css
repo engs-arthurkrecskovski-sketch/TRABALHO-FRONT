@@ -81,3 +81,22 @@ input:focus {
     background: #2c2f33;
     box-shadow: 0 0 15px rgba(230, 57, 70, 0.1);
 }
+
+.btn-salvar { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 12px;
+    padding: 1.2rem; 
+    background: linear-gradient(135deg, #e63946 0%, #c31520 100%);
+    color: white; 
+    text-decoration: none; 
+    border-radius: 12px; 
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+    margin-top: 1rem;
+}
