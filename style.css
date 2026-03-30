@@ -6,7 +6,7 @@
     box-sizing: border-box; 
 }
 body { 
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Inter', sans-serif;
     background-color: #121212; 
     color: white;
     display: flex; 
@@ -27,8 +27,7 @@ main {
 }
 
 .header-dashboard h1 { 
-    font-family: 'Oswald', sans-serif;
-    color: #ffffff; 
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 2.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -105,10 +104,11 @@ main {
 .card-verde { border-color: #10b981; }
 
 .card span { 
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 3rem; 
     font-weight: 700; 
 }
+
 .dashboard-grid-bottom {
     display: grid;
     grid-template-columns: 1.5fr 1fr; 
